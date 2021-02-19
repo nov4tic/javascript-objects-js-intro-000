@@ -4,4 +4,4 @@ var playlist = {
   Yachty: "Oprah's Bank Account",
 }
 
-var updatePlaylist = (obj, key, value) => obj.key = value;
+var updatePlaylist = (obj, key, value) => obj[key] = value;
