@@ -5,4 +5,4 @@ var playlist = {
 }
 
 var updatePlaylist = (obj, key, value) => obj[key] = value;
-var removeFromPlaylist = (obj, key) => delete obj.key;
+var removeFromPlaylist = (obj, key) => delete obj[key];
