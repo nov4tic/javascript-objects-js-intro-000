@@ -3,3 +3,5 @@ var playlist = {
   Drake: 'Hotline Bling',
   Yachty: "Oprah's Bank Account",
 }
+
+var updatePlaylist = (obj, key, value) => obj.key = value;
